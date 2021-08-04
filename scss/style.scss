@@ -168,6 +168,7 @@
                     font-family: 'PT Sans';
                     color: #737373;
                     margin-top: 10px;
+                    
                 }
             }
 
@@ -246,6 +247,9 @@
                 font-family: 'PT Sans';
                 color: #737373;
                 margin-bottom: 20px;
+                overflow: hidden;
+                text-overflow: unitless($number: 62);
+                max-height: 60px;
                 
             }
 
